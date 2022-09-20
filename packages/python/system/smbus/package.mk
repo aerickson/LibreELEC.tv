@@ -14,6 +14,10 @@ PKG_TOOLCHAIN="manual"
 
 pre_make_target() {
   export PYTHONXCPREFIX="${SYSROOT_PREFIX}/usr"
+
+#   PKG_MAKE_OPTS_TARGET="-f Makefile.lnx CC=${CC}"
+#   export CFLAGS="${TARGET_CFLAGS} -g3 -Wall -I${PKG_BUILD}/include -DDEBUG_BUILD=0 -D_FILE_OFFSET_BITS=64 -D LINUX=1 -D BSD=1"
+  export CFLAGS="${TARGET_CFLAGS}"
 }
 
 make_target() {
