@@ -8,7 +8,7 @@ PKG_SHA256="f96d345e0aa10053a8a4917634f1dc37ba1f656fa5cace7629b71777e90855c6"
 PKG_LICENSE="OSS"
 PKG_SITE="http://pypi.org/project/smbus"
 PKG_URL="https://files.pythonhosted.org/packages/source/${PKG_NAME:0:1}/${PKG_NAME}/${PKG_NAME}-${PKG_VERSION}.tar.gz"
-PKG_DEPENDS_TARGET="toolchain Python3 distutilscross:host"
+PKG_DEPENDS_TARGET="toolchain Python3"
 # PKG_LONGDESC="A simple, fast, complete, correct and extensible JSON encoder and decoder for Python 2.5+."
 PKG_TOOLCHAIN="manual"
 
