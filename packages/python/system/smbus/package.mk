@@ -17,7 +17,7 @@ pre_make_target() {
 }
 
 make_target() {
-  python3 setup.py build --prefix=${TOOLCHAIN}
+  python3 setup.py build
 }
 
 makeinstall_target() {
