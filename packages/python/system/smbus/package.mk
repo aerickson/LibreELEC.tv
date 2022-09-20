@@ -4,7 +4,7 @@
 
 PKG_NAME="smbus"
 PKG_VERSION="1.1.post2"
-PKG_SHA256="cf98038d2abf63a1ada5730e91e84c642ba6c225b0198c3684151b1f80c5f8a6"
+PKG_SHA256="f96d345e0aa10053a8a4917634f1dc37ba1f656fa5cace7629b71777e90855c6"
 PKG_LICENSE="OSS"
 PKG_SITE="http://pypi.org/project/smbus"
 PKG_URL="https://files.pythonhosted.org/packages/source/${PKG_NAME:0:1}/${PKG_NAME}/${PKG_NAME}-${PKG_VERSION}.tar.gz"
