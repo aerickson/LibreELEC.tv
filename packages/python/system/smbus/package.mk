@@ -18,12 +18,12 @@ pre_make_target() {
 #   PKG_MAKE_OPTS_TARGET="-f Makefile.lnx CC=${CC}"
 #   export CFLAGS="${TARGET_CFLAGS} -g3 -Wall -I${PKG_BUILD}/include -DDEBUG_BUILD=0 -D_FILE_OFFSET_BITS=64 -D LINUX=1 -D BSD=1"
 #   export HOST_CFLAGS="${TARGET_CFLAGS}"
-  export HOST_CFLAGS="-march=${ARCH} -O2 -Wall -pipe -I${TOOLCHAIN}/include"
+#   export HOST_CFLAGS="-march=${ARCH} -O2 -Wall -pipe -I${TOOLCHAIN}/include"
 
 }
 
 make_target() {
-  python3 setup.py build
+  python3 setup.py build --cross-compile
 }
 
 makeinstall_target() {
