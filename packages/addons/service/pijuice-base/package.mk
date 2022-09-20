@@ -23,10 +23,13 @@ makeinstall_target() {
 
 	# dest: /usr/bin/pijuice_sys.py
 
+	#  cp ${PKG_BUILD}/id3tag.pc ${SYSROOT_PREFIX}/usr/lib/pkgconfig
+
+
 	# TODO: place sys binary
-	install -m 755 ${PKG_BUILD}/Software/Source/src/pijuice_sys.py ${INSTALL}/usr/bin/
+	install -m 755 ${PKG_BUILD}/Software/Source/src/pijuice_sys.py ${SYSROOT_PREFIX}/usr/bin/
 	# TODO: place CLI
-	install -m 755 ${PKG_BUILD}/Software/Source/src/pijuice_cli.py ${INSTALL}/usr/bin/
+	install -m 755 ${PKG_BUILD}/Software/Source/src/pijuice_cli.py ${SYSROOT_PREFIX}/usr/bin/
 }
 
 # make_target() {
