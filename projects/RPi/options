@@ -122,4 +122,4 @@
     DEBUG_TTY="/dev/console"
 
   # additional packages to install:
-    ADDITIONAL_PACKAGES="smbus"
+    # ADDITIONAL_PACKAGES=""
