@@ -53,3 +53,8 @@ post_install() {
 	# does placement also... i think
 	enable_service pijuice.service
 }
+
+# disable addon step
+addon() {
+  :
+}
