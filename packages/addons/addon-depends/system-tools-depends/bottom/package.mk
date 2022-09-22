@@ -7,7 +7,7 @@ PKG_SHA256="4e4eb251972a7af8c46dd36bcf1335fea334fb670569434fbfd594208905b2d9"
 PKG_LICENSE="MIT"
 PKG_SITE="https://github.com/ClementTsang/bottom"
 PKG_URL="https://github.com/ClementTsang/bottom/archive/${PKG_VERSION}.tar.gz"
-PKG_DEPENDS_TARGET="toolchain gcc:host rust"
+PKG_DEPENDS_TARGET="toolchain rust"
 PKG_LONGDESC="A TUI system monitor written in Rust."
 PKG_TOOLCHAIN="manual"
 
