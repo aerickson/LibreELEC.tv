@@ -9,6 +9,7 @@ PKG_DEPENDS_TARGET="toolchain Python3 i2c-tools systemd"
 PKG_IS_ADDON="yes"
 PKG_ADDON_NAME="PiJuice"
 PKG_ADDON_TYPE="xbmc.service"
+PKG_SECTION="service"
 
 PKG_TOOLCHAIN="manual"
 
