@@ -10,6 +10,8 @@ PKG_IS_ADDON="yes"
 PKG_ADDON_NAME="PiJuice"
 PKG_ADDON_TYPE="xbmc.service"
 
+PKG_TOOLCHAIN="manual"
+
 makeinstall_target() {
   :
 }
