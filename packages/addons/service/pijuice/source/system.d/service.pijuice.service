@@ -5,14 +5,11 @@ After=dev-i2c\x2d1.device
 
 [Service]
 Type=idle
-# was pijuice
-User=kodi
+User=kodi  # was pijuice
 WorkingDirectory=/var/lib/pijuice/
 ExecStart=/storage/.kodi/addons/service.pijuice/bin/pijuice_sys.py
-ExecStopPost=/usr/bin/pijuice_sys.py stop
+ExecStopPost=/storage/.kodi/addons/service.pijuice/bin/pijuice_sys.py stop
 Restart=always
 
 [Install]
 WantedBy=multi-user.target
-
-ExecStart=usbmuxd --systemd
